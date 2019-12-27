@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+
+
+body, html {
+font-family: 'Gelasio', serif;
+font-weight: normal;
+font-size: 14px;
+height: 100%;
+}
+
+@font-face {
+font-family: "Poppins Regular";
+src:
+url("css/fonts/Harabara.woff") format("woff"),
+url("css/fonts/Harabara.woff2") format("woff2");
+}
+
+@font-face {
+font-family: "Poppins Bold";
+src:
+url("css/fonts/Harabara.woff") format("woff"),
+url("css/fonts/Harabara.woff2") format("woff2");
+}
+
+.learn span{
+    font-size: 1.8rem;
+}
+.bold {
+    font-weight: bold;
+}
+
+.nick{
+    font-size: 1.8rem;
+}
+
+.huge {
+    font-size: 2.5rem;
+}
+
+header, footer {
+    height: 10%;
+}
+
+section {
+    height: 80%;
+}
+
+
+.colorful {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #00ff;
+    text-shadow: 9px -3px 4px rgba(0, 0, 0, 0.57);
+}
+
+.lorem {
+
+    text-indent: 70px;
+    font-size: .9rem;
+    text-align: justify;
+    text-justify: inter-character;
+    text-align-last: left;
+    letter-spacing: 1.5px;
+    line-height: 15px;
+    word-spacing: 2px;
+    /* background: linear-gradient(to right, #000, #fff); */
+}
+
+.lorem:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+}
+button:hover {
+    background-color: grey;
+    transform: translateX(5px);
+    margin: 10px;
+}
+
+button.a:active {
+    background-color: blue;
+}
